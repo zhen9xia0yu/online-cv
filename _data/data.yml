@@ -3,71 +3,93 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: 郑晓宇
-    tagline: Full Stack Developer
+    tagline: 音视频能力产品经理
     avatar: dou.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: zhen9xiaoyu@outlook.com
     phone: 18202311678
-    timezone: China/Chengdu Timezone
+    timezone:
     citizenship:
     website: zhen9xia0yu.github.io #do not add http://
-    linkedin: alandoe
-    xing: alandoe
+    linkedin: 
+    xing:
     github: zhen9xia0yu
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
 
-        - idiom: French
-          level: Professional
+    #languages:
+    #  title: Languages
+    #  info:
+    #    - idiom: English
+    #      level: Native
 
-        - idiom: Spanish
-          level: Professional
+    #    - idiom: French
+    #      level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    #    - idiom: Spanish
+    #      level: Professional
 
-        - item: Snowboarding
-          link:
+    #interests:
+    #  title: Interests
+    #  info:
+    #    - item: Climbing
+    #      link:
 
-        - item: Cooking
-          link:
+    #    - item: Snowboarding
+    #      link:
+
+    #    - item: Cooking
+    #      link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      两年媒体服务器开发经验，两年媒体能力产品设计及项目管理经验。擅于结合技术经验分析和梳理需求及架构。自驱力及责任心强。
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: chatGPT \ New Bings \ 文心一言
+        level: 98%
+
+      - name: Office \ Markdown \ Mermaid \ Notion \飞书云文档
+        level: 98%
+
+      - name: FFmpeg \ Sox \ OBS
+        level: 98%
+
+      - name: Nginx \ NFS \ VisualStudioCode
+        level: 95%
+
+      - name: Linux \ Vim \ Git \ Whireshark
+        level: 85%
+
+      - name: C \ C++ \ Python \ SQL \ Makefile
+        level: 60%
+
+
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: 本科 物联网工程
+        university: 重庆理工大学 计算机科学与工程学院
+        time: 2015 - 2019
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,101 +98,77 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+#      - degree: BSc in Applied Mathematics
+#        university: Bristol University
+#        time: 2007 - 2011
+#        details: |
+#          Describe your study here lorem ipsum dolor sit amet, consectetuer
+#          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#          sociis natoque penatibus et magnis dis parturient montes, nascetur
+#          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#          pretium quis, sem.
+#            - Bullet point
+#            - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: 音视频能力产品经理
+        time: 2020 - Present
+        company: 新讯数字科技有限公司 （原东信北邮）北京、成都研发中心 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - **产品管理**：负责产品规划及需求架构分析，推进需求落地，维护产品持续性优化
+            - **项目管理**：跟踪推进项目进度，协调开发、测试及工程各团队工作内容及配合。
+            - **技术支持**：配合需求方案及资源配比评估、项目架构及组网的分析和设计。
+            - **市场配合**：配合销售及商务团队，提供市场支持和产品推广，应标材料支撑。 
+      - role: 媒体服务器开发工程师
+        time: 2019 - Present
+        company: 新讯数字科技有限公司 （原东信北邮）北京研发中心 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+            - **技术开发**：负责流媒体技术调研、音视频媒体服务器平台软件开发及测试。
+            - **项目维护**：支撑媒体会场异常问题排查和定位。
+#certifications:
+#      title: Certifications
+#      list:
+#        - name: CV Builder
+#          start: 2020
+#          end: 2021
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.google.com
+#          credentialname: Google
+#          details: |
+#            Details about cert. Lorem ipsum dolor sit amet, consectetur 
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh. 
+#            Aenean fermentum, felis vulputate suscipit accumsan, 
+#            sem enim bibendum augue, sed convallis arcu lacus at dui. 
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+#            Praesent venenatis erat non augue suscipit consectetur. 
+#            
+#            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
+#            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
+#            justo diam viverra velit, sed rhoncus leo leo eu justo.
+#            Suspendisse placerat risus ante, sed porta nisi blandit at. 
+#        - name: Git learning
+#          start: 2019
+#          end:
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.github.com
+#          credentialname: Github
+#          details: |
+#            Older certification. Lorem ipsum dolor sit amet, consectetur 
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh. 
+#            Aenean fermentum, felis vulputate suscipit accumsan, 
+#            sem enim bibendum augue, sed convallis arcu lacus at dui. 
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+#            Praesent venenatis erat non augue suscipit consectetur. 
         
 projects:
-    title: Projects
+    title: Projects PM
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -236,28 +234,5 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
