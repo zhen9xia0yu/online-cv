@@ -126,6 +126,7 @@ experiences:
         details: |
             - **技术开发**：负责流媒体技术调研、音视频媒体服务器平台软件开发及测试。
             - **项目维护**：支撑媒体会场异常问题排查和定位。
+
 #certifications:
 #      title: Certifications
 #      list:
@@ -167,72 +168,95 @@ experiences:
 #            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
 #            Praesent venenatis erat non augue suscipit consectetur. 
         
-projects:
-    title: Projects PM
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#projects:
+#    title: Projects PM
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        time: 2020 - Present
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Projects
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: 中国移动互联网和多号、和留言媒体处理平台
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: 2020.07 - Present， 2B/2C，实时音视频转码多媒体能力及存储高并发平台，支撑通话、录放音、收号、音视频智能客服等多通信业务。
+        conference: |
+            <b> 产品设计</b>：<br> - 为保障用户通话体验，分设录音转码处理流程，录音成功率提升至5个9；<br> - 根据企业数据访问规则，设计实时转码及预转码功能，文件访问响应时延缩至250ms；<br> - 为规避NFS自身缺陷，设计分级存储规则、前置文件服务器增加超时控制，有效降低存储故障对平台功能的影响；<br>
+            <b> 项目成果</b>：超500+企业订购服务，日呼叫量达2kw，抢占某通信大厂全国南方份额，承接全国南北流量，从50%市场份额升至100%，从2020至今合同稳定接续中。
+                 
+      - title: 中国移动5G新通话媒体面媒体能力平台｜中国联通5G新通信视频能力平台
+        link: "#"
+        authors: 2022.07 - Present，2C，5G网络下全新的媒体基础及增强处理平台，支撑沉浸式通话业务，如虚拟背景/头像，转写翻译，手势识别。
+        conference: |
+            <b> 产品设计</b>：<br> - 设计底层通用媒体能力、XR渲染、AI计算、数字人等组件架构，支撑业务平台灵活调用；<br> - 设计平台算法优化、数据监控、运维告警等多服务架构；<br> - 云边协同、能力调度设计，流复制/流转发模式下未来能力演进规划；<br>
+            <b> 项目成果</b>：和某互联网大厂竞争大网份额，新通话四大试点省份，一阶段已优先在浙江落地，全面开放友好用户试点；二阶段创新能力及业务筹备中，领跑集团大网建设。
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+           
+      - title: StreamSync
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: 2019.10 - Present，基于FFmpeg-libav的流媒体处理平台（C/C++）
+        conference: |
+            <b> 功能开发</b>：<br> - 支持 RTP/RTMP 流媒体协议<br> - 支持H.264/G.711a/AAC/AMR编解码<br> - 支持视频转码、分辨率变换、滤镜、画中画<br> - 支持音频转码、重采样、声道变换<br>
+ 
+ 
+      - title: SoftUE
+        link: "#"
+        authors: 2020.03 - Present，多方会议直播流媒体处理中心（Python）
+        conference: |
+            <b> 功能开发</b>：<br> - 资源申请、SDP协商、流媒体格式变换等控制服务器<br> - H.264/PCMA（RTP）转码H.264/AAC（RTMP）<br> - 多视频流画中画叠加，对接ASR引擎<br> - GPU加速媒体转码<br>
+ 
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+ 
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
